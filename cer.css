@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 6, 2018, 2:33:34 PM
+    Author     : dsaminathan
+*/
+
+@font-face {
+    font-family: regency;
+    src: url(font/RegencyScriptFLF.ttf);
+}
+@font-face {
+    font-family: typo_alt;
+    src: url(font/typo_alt.ttf);
+}
+@font-face {
+    font-family: typo;
+    src: url(font/type.ttf);
+}
+@font-face {
+    font-family: h2ht;
+    src: url(font/h2ht.ttf);
+}
+@font-face {
+    font-family: h2h;
+    src: url(font/H2H.otf);
+}
+@font-face {
+    font-family: dark;
+    src: url(font/dark.otf);
+}
+@font-face {
+    font-family: thrones;
+    src: url(font/Thrones.otf);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+body > div {
+    width: 100%;
+    height: 100%;
+}
+.certificateImage {
+    background: url(img/b.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+.divide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.divide > div:nth-child(1) {
+    /*width: 30%; */
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 101px;
+    top: -15px;
+    /* font-family: typo; */
+    /* font-family: typo_alt; */
+    /* font-family: regency; */
+    font-family: dark;
+    /* font-family: h2h; */
+    /* font-family: h2ht; */
+    font-size: 20px;
+    color: brown;
+}
+.divide > div:nth-child(2) {
+    /*width: 70%;*/ 
+    height: 100%;
+    font-family: regency;
+    font-size: 33px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: baseline; */
+    justify-content: center;
+    position: absolute;
+    right: 40px;
+}
